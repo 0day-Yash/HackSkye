@@ -107,7 +107,7 @@ const Schedule = () => {
   }
 
   return (
-    <section id="schedule" className="py-20 relative bg-white">
+    <section id="schedule" className="py-20 relative bg-gradient-to-br from-purple-200 via-blue-200 to-pink-200">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 relative">
@@ -125,8 +125,8 @@ const Schedule = () => {
             variant={activeDay === 1 ? "default" : "outline"}
             className={`px-6 py-3 rounded-md font-mono font-medium transition-all ${
               activeDay === 1
-                ? "bg-purple-600 text-white shadow-md"
-                : "bg-white border border-gray-200 hover:border-purple-600"
+                ? "bg-purple-600 text-white shadow-lg hover:shadow-2xl"
+                : "bg-white border border-gray-200 hover:shadow-2xl hover:border-purple-600"
             }`}
           >
             <span className="flex items-center">
@@ -139,8 +139,8 @@ const Schedule = () => {
             variant={activeDay === 2 ? "default" : "outline"}
             className={`px-6 py-3 rounded-md font-mono font-medium transition-all ${
               activeDay === 2
-                ? "bg-fuchsia-500 text-white shadow-md"
-                : "bg-white border border-gray-200 hover:border-fuchsia-500"
+                ? "bg-fuchsia-500 text-white shadow-lg hover:shadow-2xl"
+                : "bg-white border border-gray-200 hover:shadow-2xl hover:border-fuchsia-500"
             }`}
           >
             <span className="flex items-center">
@@ -153,8 +153,8 @@ const Schedule = () => {
             variant={activeDay === 3 ? "default" : "outline"}
             className={`px-6 py-3 rounded-md font-mono font-medium transition-all ${
               activeDay === 3
-                ? "bg-teal-500 text-white shadow-md"
-                : "bg-white border border-gray-200 hover:border-teal-500"
+                ? "bg-teal-500 text-white shadow-lg hover:shadow-2xl"
+                : "bg-white border border-gray-200 hover:shadow-2xl hover:border-teal-500"
             }`}
           >
             <span className="flex items-center">
@@ -183,9 +183,9 @@ const Schedule = () => {
                   </div>
                 </div>
 
-                <div className="md:flex-1 bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:border-purple-500 transition-all">
+                <div className="md:flex-1 bg-white/30 backdrop-blur-lg p-6 rounded-lg border border-gray-200 shadow-lg hover:border-purple-500 transition-all">
                   <div className="md:hidden flex items-center gap-2 mb-2">
-                    <div className="w-8 h-8 bg-white rounded-full border border-gray-200 flex items-center justify-center">
+                    <div className="w-8 h-8 bg-white/20 backdrop-blue-lg p-6 rounded-full border border-gray-200 flex items-center justify-center">
                       {item.icon}
                     </div>
                     <span className="font-mono font-medium text-purple-600">{item.time}</span>

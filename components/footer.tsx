@@ -42,31 +42,31 @@ const Footer = () => {
             <h4 className="text-lg font-bold font-mono mb-4 text-gray-800">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#about" className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer">
+                <Link href="/about" className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer">
                   About Hacksyke
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#event-format"
+                  href="/event-format"
                   className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer"
                 >
                   Event Format
                 </Link>
               </li>
               <li>
-                <Link href="#schedule" className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer">
+                <Link href="/schedule" className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer">
                   Schedule
                 </Link>
               </li>
               <li>
-                <Link href="#why-join" className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer">
+                <Link href="/why-join" className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer">
                   Why Join
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#hackskye-hub"
+                  href="/hackskye-hub"
                   className="text-gray-700 hover:text-purple-600 transition-colors cursor-pointer"
                 >
                   Hacksyke Hub

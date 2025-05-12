@@ -11,7 +11,7 @@ const About = () => {
   })
 
   return (
-    <section id="about" className="py-20 relative bg-white">
+    <section id="about" className="py-20 relative bg-gradient-to-br from-purple-200 via-blue-200 to-teal-200">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 relative">
@@ -31,9 +31,9 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm transition-all hover:border-purple-500 hover:shadow-md"
+            className="p-6 bg-white/20 backdrop-blur-lg rounded-lg border border-white/20 shadow-2xl transition-all hover:border-purple-500 hover:shadow-xl"
           >
-            <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-full bg-purple-200 flex items-center justify-center mb-4">
               <Code className="w-6 h-6 text-purple-600" />
             </div>
             <h3 className="text-xl font-bold font-mono mb-2">For Everyone</h3>
@@ -47,9 +47,9 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm transition-all hover:border-fuchsia-500 hover:shadow-md"
+            className="p-6 bg-white/20 backdrop-blur-lg rounded-lg border border-white/20 shadow-2xl transition-all hover:border-fuchsia-500 hover:shadow-md"
           >
-            <div className="w-12 h-12 rounded-full bg-fuchsia-100 flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-full bg-fuchsia-200 flex items-center justify-center mb-4">
               <Cpu className="w-6 h-6 text-fuchsia-500" />
             </div>
             <h3 className="text-xl font-bold font-mono mb-2">Accessible</h3>
@@ -62,9 +62,9 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm transition-all hover:border-teal-500 hover:shadow-md"
+            className="p-6 bg-white/20 backdrop-blur-2xl rounded-lg border border-white/20 shadow-2xl transition-all hover:border-teal-500 hover:shadow-md"
           >
-            <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-full bg-teal-200 flex items-center justify-center mb-4">
               <Zap className="w-6 h-6 text-teal-500" />
             </div>
             <h3 className="text-xl font-bold font-mono mb-2">Chaotic Energy</h3>
@@ -78,9 +78,9 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="p-6 bg-white rounded-lg border border-gray-200 shadow-sm transition-all hover:border-purple-500 hover:shadow-md"
+            className="p-6 bg-white/20 backdrop-blur-lg rounded-lg border border-white/20 shadow-2xl transition-all hover:border-purple-500 hover:shadow-md"
           >
-            <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+            <div className="w-12 h-12 rounded-full bg-purple-200 flex items-center justify-center mb-4">
               <Users className="w-6 h-6 text-purple-600" />
             </div>
             <h3 className="text-xl font-bold font-mono mb-2">Cultural Shift</h3>

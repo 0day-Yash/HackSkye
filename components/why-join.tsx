@@ -44,7 +44,7 @@ const WhyJoin = () => {
   ]
 
   return (
-    <section id="why-join" className="py-20 relative bg-gray-50">
+    <section id="why-join" className="py-20 relative bg-gradient-to-br from-blue-200 via-purple-200 to-teal-200">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 relative">
@@ -69,7 +69,7 @@ const WhyJoin = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:border-purple-500 transition-all group"
+              className="bg-white/20 backdrop-blur-lg p-6 rounded-lg border border-gray-200 shadow-2xl hover:border-purple-500 transition-all group"
             >
               <div className="mb-4 transform group-hover:scale-110 transition-transform">{reason.icon}</div>
               <h3 className="text-xl font-bold font-mono mb-2">{reason.title}</h3>
@@ -84,7 +84,7 @@ const WhyJoin = () => {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="mt-12 flex justify-center"
         >
-          <div className="bg-white p-6 rounded-lg border border-teal-500 shadow-sm max-w-xl text-center">
+          <div className="bg-white/20 backdrop-blur-lg p-6 rounded-lg border hover:border-teal-500 shadow-2xl max-w-xl text-center">
             <p className="text-xl font-mono font-bold text-teal-500 mb-2">
               "Build anything. Break stuff. Sleep later."
             </p>

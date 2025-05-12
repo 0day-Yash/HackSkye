@@ -124,7 +124,7 @@ const Registration = () => {
   }
 
   return (
-    <section id="registration" className="py-20 relative bg-white">
+    <section id="registration" className="py-20 relative bg-gradient-to-br from-teal-200 via-blue-200 to-pink-200">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 relative">
@@ -143,7 +143,7 @@ const Registration = () => {
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="bg-white p-8 rounded-lg border border-purple-600 shadow-sm h-full">
+            <div className="bg-white/20 backdrop-blur-lg p-8 rounded-lg border hover:border-purple-600 hover:shadow-2xl shadow-lg h-full">
               <h3 className="text-2xl font-bold font-mono mb-6">Event Details</h3>
 
               <div className="space-y-6 mb-8">
@@ -220,7 +220,7 @@ const Registration = () => {
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
+            <div className="bg-white/20 p-8 rounded-lg backdrop-blur-lg shadow-lg hover:shadow-2xl hover:border border-teal-500">
               <h3 className="text-2xl font-bold font-mono mb-6">Registration Form</h3>
 
               {!isSubmitted ? (
@@ -551,7 +551,7 @@ const Registration = () => {
               )}
             </div>
 
-            <div className="mt-6 p-4 bg-white rounded-lg border border-gray-200 shadow-sm">
+            <div className="mt-6 p-4 bg-white/20 backdrop-blur-lg rounded-lg border border-gray-200 shadow-lg hover:border-fuchsia-500">
               <p className="text-center font-mono font-medium">
                 <span className="text-teal-500">Questions?</span> Email us at{" "}
                 <a href="mailto:hacksykeindia@gmail.com" className="text-purple-600 hover:underline">

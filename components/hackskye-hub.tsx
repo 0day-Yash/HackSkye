@@ -44,7 +44,7 @@ const HacksykeHub = () => {
   ]
 
   return (
-    <section id="hackskye-hub" className="py-20 relative bg-white">
+    <section id="hackskye-hub" className="py-20 relative bg-gradient-to-br from-purple-200 via-blue-200 to-teal-200">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 relative">
@@ -63,7 +63,7 @@ const HacksykeHub = () => {
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="bg-white p-6 rounded-lg border border-fuchsia-500 shadow-sm h-full">
+            <div className="bg-white/20 backdrop-blur-lg p-6 rounded-lg border shadow-lg h-full hover:shadow-2xl hover:border-fuchsia-400">
               <h3 className="text-2xl font-bold font-mono mb-4">What is the Hub?</h3>
               <p className="text-gray-600 mb-4">
                 Hacksyke Hub is more than just a Discord server. It's a year-round community for coders, designers, and
@@ -117,7 +117,7 @@ const HacksykeHub = () => {
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className="bg-white p-5 rounded-lg border border-gray-200 shadow-sm hover:border-teal-500 transition-all"
+                  className="bg-white/20 backdrop-blur-lg shadow-lg p-5 rounded-lg border hover:shadow-2xl hover:border-teal-500 transition-all"
                 >
                   <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center mb-3">
                     {feature.icon}
@@ -127,7 +127,7 @@ const HacksykeHub = () => {
                 </div>
               ))}
             </div>
-            <div className="mt-4 p-4 bg-white rounded-lg border border-gray-200 shadow-sm text-center">
+            <div className="mt-4 p-4 bg-white/20 backdrop-blur-lg rounded-lg border border-gray-200 shadow-lg hover:border-purple-500 text-center">
               <p className="font-medium text-purple-600 mb-1">Cost to Join</p>
               <p className="text-xl font-bold font-mono">FREE</p>
               <p className="text-sm text-gray-600 mt-2">
