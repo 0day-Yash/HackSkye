@@ -1,7 +1,10 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/test-register/route": "app/api/test-register/route.js",
-  "/api/init-db/route": "app/api/init-db/route.js",
+  "/sponsors/page": "app/sponsors/page.js",
+  "/registration/page": "app/registration/page.js",
   "/page": "app/page.js",
-  "/dashboard/page": "app/dashboard/page.js"
+  "/schedule/page": "app/schedule/page.js",
+  "/hackskye-hub/page": "app/hackskye-hub/page.js",
+  "/about/page": "app/about/page.js",
+  "/event-format/page": "app/event-format/page.js",
+  "/why-join/page": "app/why-join/page.js"
 }

@@ -29,12 +29,12 @@ const Navbar = () => {
   }, [])
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Event", href: "#event-format" },
-    { name: "Schedule", href: "#schedule" },
-    { name: "Why Join", href: "#why-join" },
-    { name: "Hub", href: "#hackskye-hub" },
-    { name: "Sponsors", href: "#sponsors" },
+    { name: "About", href: "/about" },
+    { name: "Event", href: "/event-format" },
+    { name: "Schedule", href: "/schedule" },
+    { name: "Why Join", href: "/why-join" },
+    { name: "Hub", href: "/hackskye-hub" },
+    { name: "Sponsors", href: "/sponsors" },
   ]
 
   return (
@@ -67,7 +67,7 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-600 to-teal-500 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
-            <Link href="#registration">
+            <Link href="/registration">
               <Button className="bg-purple-600 hover:bg-purple-700 text-white hover:shadow-lg transition-all">
                 Register Now
               </Button>
@@ -96,7 +96,7 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Link href="#registration" onClick={() => setIsOpen(false)}>
+            <Link href="/registration" onClick={() => setIsOpen(false)}>
               <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">Register Now</Button>
             </Link>
           </div>

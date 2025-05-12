@@ -66,7 +66,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center relative overflow-hidden pt-24 pb-12 md:pt-20"> {/* Adjusted padding */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-100 via-fuchsia-50 to-teal-50 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-200 via-purple-200 to-teal-200 z-0"></div>
       {/* Optional: Add a subtle pattern or animated shapes here */}
       {/* <div className="absolute inset-0 opacity-10 pattern-dots pattern-purple-400 pattern-bg-white pattern-size-4 pattern-opacity-20 z-0"></div> */}
 
@@ -120,11 +120,11 @@ const Hero = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-purple-500 to-fuchsia-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </Button>
               </Link>
-              <Link href="#about">
+              <Link href="/about">
                 <Button
                   size="lg" // Shadcn UI Button size prop
                   variant="outline"
-                  className="w-full sm:w-auto px-8 py-7 text-lg border-2 border-teal-500 text-teal-600 hover:bg-teal-50 hover:text-teal-700 hover:border-teal-600 hover:scale-105 transition-all duration-300 focus:ring-4 focus:ring-teal-200 font-semibold"
+                  className="w-full sm:w-auto px-8 py-7 bg-teal-50 text-lg border-2 border-teal-500 text-teal-600 hover:bg-teal-100 hover:text-teal-700 hover:border-teal-600 hover:scale-105 transition-all duration-300 focus:ring-4 focus:ring-teal-200 font-semibold"
                 >
                   Learn More
                 </Button>
@@ -134,7 +134,7 @@ const Hero = () => {
 
           {/* Right Column: Countdown */}
           <div className="md:w-1/2 w-full max-w-md md:max-w-none">
-            <div className="p-6 sm:p-8 rounded-xl bg-white/70 backdrop-blur-md border border-gray-200/80 shadow-xl transform hover:scale-[1.02] transition-transform duration-300">
+            <div className="p-6 sm:p-8 rounded-xl bg-white/40 backdrop-blur-lg border border-gray-200/80 shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
               <h2 className="text-2xl sm:text-3xl font-bold font-mono mb-6 text-center text-gray-800">
                 Countdown to <span className="text-purple-600">HackSkye 2.0</span>
               </h2>

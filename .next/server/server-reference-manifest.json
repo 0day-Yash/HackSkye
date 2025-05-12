@@ -1,1 +1,26 @@
-{"node":{"7ee9e74ca01b32aea322f76438001f0cf1f6d6b9":{"workers":{"app/dashboard/page":"1257","app/page":"6020"},"layer":{"app/dashboard/page":"rsc","app/page":"action-browser"}},"e9c59392f59e5a83e3cb8bbb85f8f47bde682929":{"workers":{"app/dashboard/page":"1257","app/page":"6020"},"layer":{"app/dashboard/page":"rsc","app/page":"action-browser"}}},"edge":{},"encryptionKey":"yoznisbKkNTtjub7ON2juLbiWlmbgCWTq6aCdF2oIjk="}
+{
+  "node": {
+    "96a556ae1401a42761fc5257202c60e232424ca6": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fanu%2FDesktop%2FCode%2FHackSkye-1%2Fapp%2Factions%2Fregistration.ts%22%2C%5B%22registerParticipant%22%2C%22getParticipants%22%5D%5D%5D&__client_imported__=true!",
+        "app/registration/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fanu%2FDesktop%2FCode%2FHackSkye-1%2Fapp%2Factions%2Fregistration.ts%22%2C%5B%22registerParticipant%22%2C%22getParticipants%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/registration/page": "action-browser"
+      }
+    },
+    "c9a9ffa1f3d8f2243140e68a0b6461996a00167b": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fanu%2FDesktop%2FCode%2FHackSkye-1%2Fapp%2Factions%2Fregistration.ts%22%2C%5B%22registerParticipant%22%2C%22getParticipants%22%5D%5D%5D&__client_imported__=true!",
+        "app/registration/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fanu%2FDesktop%2FCode%2FHackSkye-1%2Fapp%2Factions%2Fregistration.ts%22%2C%5B%22registerParticipant%22%2C%22getParticipants%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/registration/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "cLUpvUrYOzwAQUuR0kK9kdSQKOKGuoOW1IxdOHhY0Ak="
+}
